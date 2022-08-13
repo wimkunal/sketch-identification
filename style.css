@@ -1,0 +1,40 @@
+body
+{
+    background-image:radial-gradient(rgb(0, 221, 255),rgb(13, 13, 13));
+}
+h1
+{
+    color:white;
+}
+p
+{
+    color:white;
+}
+#show_sketch
+{
+    float:center;
+    box-shadow:cyan;
+}
+canvas
+{
+    border:6px solid rgb(0, 187, 255);
+    border-radius:20px;
+    animation-name:example;
+    animation-duration: 3s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {box-shadow: 1px 1px 40px aqua;}
+    to{box-shadow: 1px 1px 40px rgb(29, 4, 255);}
+}
+p{
+    padding-top:12px;
+    font-size:26px;
+}
+
+#timer
+{
+    color: white;
+    font-size: 20px;
+}
